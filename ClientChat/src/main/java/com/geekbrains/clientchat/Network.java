@@ -38,6 +38,7 @@ public class Network {
             socketOutput.writeUTF(message);
         } catch (IOException e) {
             System.err.println("Не удалось отправить сообщение на сервер");
+            e.printStackTrace();
             throw e;
         }
     }
@@ -51,6 +52,7 @@ public class Network {
                         messageHandler.accept(message);
                     } catch (IOException e) {
                         System.err.println("Не удалось получить сообщение от сервера");
+                        e.printStackTrace();
                         break;
                     }
                 }
