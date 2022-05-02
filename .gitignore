@@ -3,7 +3,7 @@
 
 # User-specific stuff
 
-.idea/
+.idea/*
 
 .idea/**/workspace.xml
 .idea/**/tasks.xml
@@ -78,3 +78,11 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+/ClientChat/.gitignore
+/Java2Lessons.iml
+/ClientChat/.mvn/wrapper/maven-wrapper.jar
+/ClientChat/.mvn/wrapper/maven-wrapper.jar
+/ClientChat/.mvn/wrapper/maven-wrapper.properties
+/ClientChat/mvnw
+/ClientChat/mvnw.cmd
+/ClientChat/.mvn/wrapper/maven-wrapper.jar
